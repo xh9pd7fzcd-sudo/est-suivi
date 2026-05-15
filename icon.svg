@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1810"/>
+      <stop offset="100%" style="stop-color:#2a2418"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c8400a"/>
+      <stop offset="100%" style="stop-color:#e85520"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f8aff"/>
+      <stop offset="100%" style="stop-color:#3a6fd8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fond arrondi style iOS -->
+  <rect width="1024" height="1024" rx="224" ry="224" fill="url(#bg)"/>
+
+  <!-- Ligne decorative haut -->
+  <rect x="80" y="180" width="864" height="3" rx="2" fill="#c8400a" opacity="0.6"/>
+
+  <!-- EPS grand texte -->
+  <text x="512" y="420" 
+    font-family="Georgia, serif" 
+    font-size="280" 
+    font-weight="bold"
+    fill="#f0ece3"
+    text-anchor="middle"
+    letter-spacing="-8">EPS</text>
+
+  <!-- Barre orange sous EPS -->
+  <rect x="180" y="445" width="664" height="8" rx="4" fill="url(#accent)"/>
+
+  <!-- Texte "Carnet de suivi" -->
+  <text x="512" y="560"
+    font-family="Arial, sans-serif"
+    font-size="72"
+    font-weight="400"
+    fill="#9a9080"
+    text-anchor="middle"
+    letter-spacing="4">CARNET DE SUIVI</text>
+
+  <!-- Icone seance - clipboard simplifie -->
+  <rect x="312" y="620" width="140" height="170" rx="14" fill="none" stroke="#4f8aff" stroke-width="8"/>
+  <rect x="362" y="608" width="40" height="24" rx="8" fill="#4f8aff"/>
+  <line x1="338" y1="690" x2="426" y2="690" stroke="#4f8aff" stroke-width="7" stroke-linecap="round"/>
+  <line x1="338" y1="720" x2="426" y2="720" stroke="#4f8aff" stroke-width="7" stroke-linecap="round" opacity="0.5"/>
+  <line x1="338" y1="750" x2="400" y2="750" stroke="#4f8aff" stroke-width="7" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- Icone eleve - silhouette -->
+  <circle cx="572" cy="668" r="32" fill="none" stroke="#56cfb2" stroke-width="8"/>
+  <path d="M510 790 Q572 740 634 790" fill="none" stroke="#56cfb2" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Icone note - etoile simple -->
+  <text x="736" y="790"
+    font-family="Arial"
+    font-size="110"
+    fill="url(#accent)"
+    text-anchor="middle">★</text>
+
+  <!-- Ligne decorative bas -->
+  <rect x="80" y="840" width="864" height="3" rx="2" fill="#c8400a" opacity="0.6"/>
+
+  <!-- Annee scolaire -->
+  <text x="512" y="920"
+    font-family="Arial, monospace"
+    font-size="44"
+    fill="#7a7060"
+    text-anchor="middle"
+    letter-spacing="2">2025 - 2026</text>
+</svg>
